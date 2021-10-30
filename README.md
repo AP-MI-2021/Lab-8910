@@ -3,7 +3,7 @@
 
 Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, unde `cod` este codul din lista de note. Trebuie predat:
 
-### Mate-info și Fizică-Informatică
+### Mate-info și Fizică-info
 0. Teste și specificații la toate iterațiile.
 1. **Iterația 1** 
    - Toate CRUD-urile, minim încă o funcționalitate diferită de CRUD. Cu validări, arhitectură stratificată cu toate elementele descrise la curs. Salvarea datelor în fișiere.  
