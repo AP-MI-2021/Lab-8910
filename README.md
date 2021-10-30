@@ -53,7 +53,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
     1.8. Ștergerea tuturor tranzacțiilor dintr-un anumit interval de zile.  
     1.9. Scumpirea cu un procentaj dat a tuturor medicamentelor cu prețul mai mic decât o valoare dată.  
 
-2. Cinema. 
+2. Cinema.  
     2.1. CRUD film: id, titlu, an apariție, preț bilet, în program. Prețul să fie strict pozitiv.  
     2.2. CRUD card client: id, nume, prenume, CNP, data nașterii (`dd.mm.yyyy`), data înregistrării (`d.mm.yyyy`), puncte acumulate. CNP-ul trebuie să fie unic.  
     2.3. CRUD rezervare: id, id_film, id_card_client (poate fi nul), data și ora. Clientul acumulează pe card 10% (parte întreagă) din prețul filmului Se tipărește numărul total de puncte de pe card. Rezervarea se poate face doar dacă filmul este încă în program.  
@@ -65,7 +65,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
     2.9. Incrementarea cu o valoare dată a punctelor de pe toate cardurile a căror zi de naștere se află într-un interval dat.   
 
 
-3. Service auto
+3. Service auto  
     3.1. CRUD mașină: id, model, an achiziție, nr. km, în garanție. Km și anul fabricației să fie strict pozitivi.  
     3.2. CRUD card client: id, nume, prenume, CNP, data nașterii (`dd.mm.yyyy`), data înregistrării (`dd.mm.yyyy`). CNP-ul trebuie să fie unic.  
     3.3. CRUD tranzacție:  id, id_mașină, id_card_client (poate fi nul), sumă piese, sumă manoperă, data și ora. Dacă există un card client, atunci aplicați o reducere de 10% pentru manoperă. Dacă mașina este în garanție, atunci piesele sunt gratis. Se tipărește prețul plătit și reducerile acordate.  
