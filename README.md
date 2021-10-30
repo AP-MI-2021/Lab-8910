@@ -74,4 +74,4 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
     3.6. Afișarea mașinilor  ordonate descrescător după suma obținută pe manoperă.  
     3.7. Afișarea cardurilor client ordonate descrescător după valoarea reducerilor obținute.  
     3.8. Ștergerea tuturor tranzacțiilor dintr-un anumit interval de zile.  
-    3.9. Actualizarea garanției la fiecare mașină: o mașină este în garanție dacă și numai dacă are maxim 3 ani și maxim 60 000 de km.  
+    3.9. Actualizarea garanției la fiecare mașină: o mașină este în garanție dacă și numai dacă are maxim `3` ani de la achiziție și maxim `60 000` de km.  
