@@ -9,7 +9,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
    - Toate CRUD-urile, minim încă o funcționalitate diferită de CRUD. Cu validări, arhitectură stratificată cu toate elementele descrise la curs. Salvarea datelor în fișiere.  
    - Fără warning-uri PEP 8. Acestea vor fi afișate pe github când faceți commit. Nota maximă dacă există warning-uri PEP 8 este `9`.
 2. **Iterația 2**
-   - Toate funcționalitățile. 
+   - Toate funcționalitățile în afară de Undo+Redo. 
    - Repository generic, clase proprii de excepții. 
    - Folosirea type hinting, ABC, protocol.
    - Fără warning-uri PEP 8. Acestea vor fi afișate pe github când faceți commit. Nota maximă dacă există warning-uri PEP 8 este `8`.
