@@ -43,11 +43,13 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
 
 ---
 
+În toate problemele, **căutare full text** înseamnă că stringul introdus de utilizator se caută în toate câmpurilor tuturor entităților menționate.
+
 1. Farmacie Online.  
     1.1. CRUD medicament: id, nume, producător, preț, necesită rețetă. Prețul să fie strict pozitiv.  
     1.2. CRUD card client: id, nume, prenume, CNP, data nașterii (`dd.mm.yyyy`), data înregistrării (`dd.mm.yyyy`). CNP-ul trebuie să fie unic.  
     1.3. CRUD tranzacție:  id, id_medicament, id_card_client (poate fi nul), nr_bucăți, data și ora. Dacă există un card client, atunci aplicați o reducere de 10% dacă medicamentul nu necesită rețetă și de 15% dacă necesită. Se tipărește prețul plătit și reducerile acordate.  
-    1.4. Căutare medicamente și clienți după nume, producător, prenume, CNP etc. Căutare full text.  
+    1.4. Căutare medicamente și clienți. Căutare full text.  
     1.5. Afișarea tuturor tranzacțiilor dintr-un interval de zile dat.  
     1.6. Afișarea medicamentelor ordonate descrescător după numărul de vânzări.  
     1.7. Afișarea cardurilor client ordonate descrescător după valoarea reducerilor obținute.  
@@ -58,7 +60,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
     2.1. CRUD film: id, titlu, an apariție, preț bilet, în program. Prețul să fie strict pozitiv.  
     2.2. CRUD card client: id, nume, prenume, CNP, data nașterii (`dd.mm.yyyy`), data înregistrării (`d.mm.yyyy`), puncte acumulate. CNP-ul trebuie să fie unic.  
     2.3. CRUD rezervare: id, id_film, id_card_client (poate fi nul), data și ora. Clientul acumulează pe card 10% (parte întreagă) din prețul filmului. Se tipărește numărul total de puncte de pe card. Rezervarea se poate face doar dacă filmul este încă în program.  
-    2.4. Căutare filme și clienți după titlu, nume, prenume, CNP etc. Căutare full text.  
+    2.4. Căutare filme și clienți. Căutare full text.  
     2.5. Afișarea tuturor rezervărilor dintr-un interval de ore dat, indiferent de zi.  
     2.6. Afișarea filmelor ordonate descrescător după numărul de rezervări.  
     2.7. Afișarea cardurilor client ordonate descrescător după numărul de puncte de pe card.  
@@ -70,7 +72,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
     3.1. CRUD mașină: id, model, an achiziție, nr. km, în garanție. Km și anul achiziției să fie strict pozitivi.  
     3.2. CRUD card client: id, nume, prenume, CNP, data nașterii (`dd.mm.yyyy`), data înregistrării (`dd.mm.yyyy`). CNP-ul trebuie să fie unic.  
     3.3. CRUD tranzacție:  id, id_mașină, id_card_client (poate fi nul), sumă piese, sumă manoperă, data și ora. Dacă există un card client, atunci aplicați o reducere de 10% pentru manoperă. Dacă mașina este în garanție, atunci piesele sunt gratis. Se tipărește prețul plătit și reducerile acordate.  
-    3.4. Căutare mașini și clienți după model, an fabricație, prenume, CNP etc. Căutare full text.  
+    3.4. Căutare mașini și clienți. Căutare full text.  
     3.5. Afișarea tuturor tranzacțiilor cu suma cuprinsă într-un interval dat.  
     3.6. Afișarea mașinilor  ordonate descrescător după suma obținută pe manoperă.  
     3.7. Afișarea cardurilor client ordonate descrescător după valoarea reducerilor obținute.  
