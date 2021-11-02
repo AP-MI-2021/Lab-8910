@@ -43,7 +43,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
 
 ---
 
-În toate problemele, **căutare full text** înseamnă că stringul introdus de utilizator se caută în toate câmpurilor tuturor entităților menționate.
+În toate problemele, **căutare full text** înseamnă că stringul introdus de utilizator se caută în toate câmpurile tuturor entităților menționate. Se returnează toate entitățile în ale căror câmpuri se găsește stringul. Se pot returna entități de tipuri diferite.
 
 1. **Farmacie Online**   
     1.1. CRUD medicament: id, nume, producător, preț, necesită rețetă. Prețul să fie strict pozitiv.  
