@@ -31,7 +31,7 @@ Fiecare student are asignată problema calculată după formula `cod % 3 + 1`, u
 1. **Iterația 1** 
    - Toate CRUD-urile, cu validări, eventual fără repository. Salvarea datelor în memorie.  
 2. **Iterația 2**
-   - Toate funcționalitățile în afară de Undo+Redo, cu repository. Salvarea datelor în memorie.
+   - Toate funcționalitățile, cu repository. Salvarea datelor în memorie.
 3. **Iterația 3**
    - Repository cu fișiere.
    - Refactorizat 2 funcționalități folosind `map`, `filter`, `list comprehensions`, `reduce` sau `filter`.
